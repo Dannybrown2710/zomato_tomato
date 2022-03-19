@@ -1,9 +1,8 @@
-const var1 = 'Chetan'
-
-
+import Restaurant from './components/Customer/Restaurant';
+import Login from './components/Login'
 function App(props){
   return (<>
-    Hello {var1}
+    <Restaurant/>
   </>
   )
 }

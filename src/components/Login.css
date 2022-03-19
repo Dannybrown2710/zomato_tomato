@@ -1,0 +1,14 @@
+body,html,#root{
+    width: 100%;
+    height: 100%;
+}
+.form{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 300px;
+    flex-direction: column;
+    padding: 1rem;
+    margin: auto;
+    background-color:#eee;
+}

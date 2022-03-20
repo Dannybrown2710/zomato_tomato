@@ -1,4 +1,6 @@
+import { Button } from "@mui/material";
 import { useState } from "react";
+import RestaurantCard from "../common/RestaurantCard"
 
 function Restaurant(props) {
   const [restaurants, setRestaurants] = useState([
@@ -10,7 +12,7 @@ function Restaurant(props) {
   return (
     <div>
       {restaurants.map((restaurant) => (
-        <div>{restaurant}</div>
+        <RestaurantCard restaurantData = {restaurant}/>
       ))}
     </div>
   );

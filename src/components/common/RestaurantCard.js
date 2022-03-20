@@ -27,7 +27,9 @@ const RestaurantCard = (props) => {
         </Typography> */}
       </CardContent>
       <CardActions>
-        <Button size="small">Learn More</Button>
+        <Button size="small">
+          <h1>CLICK</h1>
+          </Button>
       </CardActions>
       </div>
     </React.Fragment>
